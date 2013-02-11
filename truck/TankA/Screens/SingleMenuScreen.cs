@@ -14,7 +14,7 @@ namespace TankA
         public SingleMenuScreen()
             : base("Single Play")
         {
-            string[] mapFiles = Directory.GetFiles(@"./", "*.map");
+            string[] mapFiles = Directory.GetFiles(@"./Maps/", "*.map");
             foreach (var name in mapFiles)
             {
                 // Create menu entries.
